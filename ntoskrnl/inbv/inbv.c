@@ -32,7 +32,7 @@
  * Enable this define when ReactOS will have different SKUs
  * (Workstation, Server, Storage Server, Cluster Server, etc...).
  */
-// #define REACTOS_SKUS
+#define REACTOS_SKUS
 
 typedef struct _INBV_PROGRESS_STATE
 {
