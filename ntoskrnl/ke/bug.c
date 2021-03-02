@@ -622,7 +622,7 @@ KiDisplayBlueScreen(IN ULONG MessageId,
         InbvResetDisplay();
 
         /* Display blue screen */
-        InbvSolidColorFill(0, 0, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1, BV_COLOR_BLUE);
+        InbvSolidColorFill(0, 0, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1, BV_COLOR_RED);
         InbvSetTextColor(BV_COLOR_WHITE);
         InbvInstallDisplayStringFilter(NULL);
         InbvEnableDisplayString(TRUE);
